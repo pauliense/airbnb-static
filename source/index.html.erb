@@ -8,3 +8,169 @@ title: Le Wagon Middleman boilerplate
     <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
   </p>
 </div>
+
+<!-- Your banner code -->
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+  <div class="banner-content">
+    <h1>Some Stuff</h1>
+    <p>Very cool stuff, useful and smart</p>
+
+    <!--  -->
+
+
+    <form action="#" class="form-inline">
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="check-in-date">
+
+        <input type="password" class="form-control" placeholder="check-out-date">
+
+        <select class="form-control">
+          <option value="1">1 guest</option>
+          <option value="2">2 guests</option>
+          <option value="3">3 guests</option>
+          <a class="btn btn-primary btn-lg">GET IT</a>
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+      </div></form>
+
+
+
+    </div>
+  </div>
+
+  <!-- Your features code -->
+  <div class="features text-center padded">
+    <div class="container">
+     <div class="row">
+
+      <div class="col-xs-12 col-md-3">
+
+
+        <%= image_tag "globe.png", alt: "" %>
+
+
+        <h2>Discover the world!</h2>
+        <p>The earth is your new home.</p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <%= image_tag "dollar.png", alt: "" %>
+
+        <h2>Pay online</h2>
+        <p>No cash issues anymore.</p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+
+        <%= image_tag "beer.png", alt: "" %>
+
+        <h2>Meet people</h2>
+        <p>Discover new culture and lifestyle.</p>
+      </div>
+
+      <div class="col-xs-12 col-md-3">
+
+        <%= image_tag "heart.png", alt: "" %>
+
+        <h2>Share and love</h2>
+        <p>Join a community you will love.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Your cards code -->
+<div class="wrapper-grey">
+  <div class="container">
+    <h2>Your next trip</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/card-paris.jpg');">
+          <div class="card-city">
+            <h2>Paris</h2>
+          </div>
+
+          <div class="card-avatar">
+
+
+            <%= image_tag "seb.jpg", alt: "profile-picture", id: "avatar" %>
+
+          </div>
+
+          <div class="card-content card-title">
+            <h3>These are the streets...</h3>
+          </div>
+
+          <div class="card-content card-description">
+            <h4>You should sleep outside. Really feel the city!</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/card-brussels.jpeg');">
+          <div class="card-city">
+            <h2>Brussels</h2>
+          </div>
+
+          <div class="card-avatar">
+            <%= image_tag "anne.jpg", alt: "anne", id: "avatar" %>
+
+
+
+          </div>
+
+          <div class="card-content card-title">
+            <h3>These are the streets...</h3>
+          </div>
+
+          <div class="card-content card-description">
+            <h4>You should sleep outside. Really feel the city!</h4>
+          </div>
+
+        </div>
+
+
+        <!-- insert <div class="card"> -->
+      </div>
+      <div class="col-xs-12 col-sm-4">
+
+
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/card-london.jpeg');">
+          <div class="card-city">
+            <h2>London</h2>
+          </div>
+
+          <div class="card-avatar">
+            <%= image_tag "romain.jpg", alt: "romain", id: "avatar" %>
+
+          </div>
+
+          <div class="card-content card-title">
+            <h3>These are the streets...</h3>
+          </div>
+
+          <div class="card-content card-description">
+            <h4>You should sleep outside. Really feel the city!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Your newsletter code -->
+
+<div class="newsletter text-center padded">
+  <h2>Get news from us</h2>
+  <p>Leave us your mail and get news from us</p>
+  <form class="form-inline">
+    <input type="email" class="form-control" id="your-email" placeholder="bob@gmail.com">
+    <input type="submit" value="Subscribe" class="btn btn-primary">
+  </form>
+</div>
+
+<%= partial "map" %>
+
