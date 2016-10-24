@@ -1,0 +1,32 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+inou:
+  owner_name: Inou Ridder
+  picture: card-brussels.jpeg
+  owner_picture: inou.jpg
+  name: Inou's home
+  summary: Charming piece of the canal
+  city: Amsterdam
+  wifi: false
+paulien:
+  owner_name: Paulien Sewuster
+  picture: card-london.jpeg
+  owner_picture: paulien.jpg
+  name: Paulien's home
+  summary: Very pretty piece of the streets
+  city: Amsterdam
+  wifi: true
